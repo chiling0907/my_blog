@@ -14,6 +14,7 @@ def index(request):
     return render(request,"index.html")
 
 def info(request):
+    print(request)
     #1.普通用法
     username = '我不是jack'
     #2.字典类型
